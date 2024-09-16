@@ -1,0 +1,95 @@
+.about-bg-card {
+  overflow: hidden;  
+  height: 100vh;  
+  background-color:rgb(30,30,30);  
+  padding:50px;
+  }
+  
+  .about-card {
+    display: flex;
+    justify-content: center;   
+    align-items: start;       
+    height: 100%;   
+    margin-top:4rem;
+    padding:20px;
+   }
+  
+  .about-information {
+    text-align: center;    
+    margin-left:5%;
+    
+    }
+  
+  .about-heading{
+    font-family:"Roboto";
+    font-size:60px;
+    color:white;
+    font-weight:800;
+    margin-bottom:11px;
+  }
+
+  .span{
+    color:var(--main-color);
+  }
+  .about-discription{
+    font-size:14px;
+    font-family:sans-serif;
+    font-style:italic;
+    color:white;
+  }
+
+  .about-image{
+     height:300px;
+     margin-right:20px;
+     margin-top:0;
+  }
+
+ .icons {
+  display: flex;
+  gap: 15px;  
+  justify-content: center;  
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+ .icons a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;  
+  text-align: center;  
+  border-radius: 50%;  
+  background-color: #f2f2f2;  
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+ .icons .linkedin {
+  border: 2px solid #0077B5;  
+  color: #0077B5;  
+}
+
+ .icons .instagram {
+  border: 2px solid #E4405F;  
+  color: #E4405F;  
+}
+
+.icons .github {
+  border: 2px solid  #0077B5;  
+  color:#000;  
+}
+
+ .icons a:hover {
+  background-color: #000;  
+  color: #fff;  
+  transform: scale(1.1);  
+}
+
+ @media (max-width: 768px) {
+  .icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+}
